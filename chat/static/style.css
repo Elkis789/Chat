@@ -1,0 +1,95 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: .900rem
+}
+.navbar {
+    background-color: #333333 !important;
+}
+
+.navbar-brand {
+    padding-top: .70rem;
+    padding-bottom: .70rem;
+    font-size: 12px !important;
+    letter-spacing: 0.3px;
+    font-weight: 550;
+}
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 0.3rem;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    background-color: rgb(243, 243, 243) !important;
+
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+    margin-left: 6px;
+    font-size: 12px;
+}
+.bi{
+    font-size: 17px;
+}
+.center-div{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.form{
+    position: relative;
+    top: 5dvh;
+}
+.contact{
+    font-size: 13px;
+}
+.classe-block {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-decoration: none !important;
+}
+
+.name-classe{
+    font-size: 12.5px;
+    letter-spacing: .4px;
+    text-decoration: none;
+}
+.messages{
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.date{
+    font-size: 11px;
+}
+.btn-env{
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+}
+.logout{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    margin-right: 20px;
+}
